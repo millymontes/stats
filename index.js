@@ -66,8 +66,7 @@ function getMax(numbers) {
  * @returns {number} the range of the numbers (max - min)
  */
 function getRange(numbers) {
-  let range = getMin(numbers) + " - " + getMax(numbers);
-  return range;
+  return getMax(numbers) - getMin(numbers);
 }
 
 /**
